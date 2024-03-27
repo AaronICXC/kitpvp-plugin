@@ -1,0 +1,22 @@
+name: Zeus
+version: 0.9.9.1
+api-version: 1.8.8
+author: Skeg
+main: com.skegdev.startup.ZeusInit
+commands:
+  kit:
+    description: Opens the kit GUI
+    usage: /<command>
+    aliases: kitpvp
+  resetcooldown:
+    description: Removes cooldowns if any.
+    usage: /<command>
+    aliases: cooldownreset
+  refill:
+    description: Opens GUI to refill soup
+    usage: /<command>
+    aliases: refillstation
+  reclaim:
+    description: Reclaims keys
+    usage: /<command>
+    aliases: claim
